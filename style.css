@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ro;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  border-bottom: 1px solid #f1f3f4;
+  padding: 8px;
+  margin: 0 10px;
+  color: #5f6368;
+}
+.search-area {
+  background: #f1f3f4;
+  width: 692px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+.search-area input {
+  background: #f1f3f4;
+  border: none;
+  height: 100%;
+  width: 95%;
+  font-size: 1rem;
+}
+.search-area span {
+  margin-left: 10px;
+}
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+.logo-text {
+  font-size: 1.2rem;
+}
+.logo-area img {
+  padding: 0 5px 0 0;
+  margin: 0 5px 0 0;
+  height: 50px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.setting-area {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-actions-area {
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+  align-items: center;
+  background-color: aquamarine;
+}
+.material-icons {
+  padding: 10px;
+}
+.hover:hover {
+  background-color: #f1f3f4;
+  color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.tooltip {
+  position: relative;
+  z-index: 1;
+}
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 20px;
+  margin: 5px 0 0 0;
+  width: 80px;
+  overflow-x: hidden;
+  min-height: 28px;
+  padding: 100px 0 0;
+  padding-right: 10px;
+}
+
+.sidebar span {
+  margin: 0 0 0 8px;
+}
+
+.sidebar .sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 30x 0;
+}
+
+.sidebar-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-left: 30px;
+  color: #000;
+  padding: 10px;
+}
+.active {
+  background-color: #fef0c3;
+  color: #000;
+  border-radius: 50%;
+}
+.active:hover {
+  background-color: #fdf0c3;
+}
+
+.tooltip-text {
+  position: absolute;
+  color: #000;
+  left: 0;
+  top: 100%;
+  font-size: 0;
+  font-size: 0.8rem;
+  background-color: #323232;
+  white-space: nowrap;
+  padding: 5px;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0, 8;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+.form-container {
+  background-color: #fff;
+  max-width: 598px;
+  height: 46px;
+  margin: 30px auto;
+  border: 1px solid #e0e1e0;
+  border-radius: 8px;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+}
+.form-container form {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.note-text {
+  border: none;
+  font-size: 1rem;
+  height: 100%;
+  padding: 10px;
+  margin-left: 10px;
+}
+.form-actions{
+  display: flex;
+}
